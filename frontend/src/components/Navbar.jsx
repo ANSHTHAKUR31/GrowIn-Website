@@ -31,7 +31,7 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
-            {["Home", "About", "Events", "Meetups","Members",  "Sponsorship", "Contact"].map(
+            {["Home", "About","Members", "Events", "Sponsorship","Meetups",  "Contact"].map(
               (item, index) => (
                 <li className="nav-item" key={index}>
                   <button

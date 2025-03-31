@@ -4,7 +4,7 @@ import Events from "./Events";
 import Sponsorship from "./Sponsorship";
 import Meetups from "./Meetups";
 import Contact from "./Contact";
-import banner from "../assets/banner-coverphoto.png";
+import banner from "../assets/herocoverai.png";
 
 const Home = () => {
   return (
@@ -17,7 +17,7 @@ const Home = () => {
             src={banner} 
             className="d-block mx-lg-auto img-fluid"
             alt="GrowIn Community"
-            width="700"
+            width="500"
             height="500"
             loading="lazy"
           />
@@ -30,7 +30,7 @@ const Home = () => {
             Vibrant and inclusive community dedicated to fostering learning,
             collaboration, and personal growth.
           </p>
-          <div className="d-grid gap-2 d-md-flex justify-content-md-start">
+          <div onClick={()=> window.open("https://discord.com/channels/1051886410568835072/1051886411021815933")}        className="d-grid gap-2 d-md-flex justify-content-md-start">
             <button type="button" className="btn btn-primary btn-lg px-4 me-md-2">
               Join Community
             </button>

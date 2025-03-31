@@ -1,14 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
-import member1 from "../assets/member1.png"; // Replace with actual images
+import akshay from "../assets/akshay.png";
+import saumya from "../assets/saumya.png";
+import imran from "../assets/imran.png";// Replace with actual images
 
 // Founder Data
 const founder = {
   name: "AKSHAY KUMAR ",
   role: "Founder & Admin",
   job : " DEVOPS ENGINEER @ NIC",
-  img: member1,
+  img: akshay,
   linkedin: "https://www.linkedin.com/in/akshayktwt",
   twitter: "https://x.com/akshayktwt",
   github: "https://github.com/akshaykumar05",
@@ -20,7 +22,7 @@ const managers = [
     name: "SAUMYA",
     role: " Manager",
     job : "CLOUD ARCHITECT @ GOOGLE",
-    img: member1,
+    img: saumya,
     linkedin: " https://www.linkedin.com/in/saumyabhushan-076572166",
     twitter: "https://x.com/saumya_bhushan",
     github: "https://github.com/SaumyaBhushaSaumyaBhushan",
@@ -29,7 +31,7 @@ const managers = [
     name: "Md IMRAN",
     role: " Manager",
     job : "DEVOPS ENGINEER",
-    img: member1,
+    img: imran,
     linkedin: " https://www.linkedin.com/in/mohdimran1995",
     twitter: " https://x.com/codenameimmy",
     github: "https://github.com/imran1509",

@@ -35,7 +35,7 @@ const Footer = () => {
   );
 };
 
-//  CSS-in-JS Styles (Styled Components)
+
 const styles = {
   footer: {
     background: "linear-gradient(135deg, #0f0f0f, #1a1a1a)",

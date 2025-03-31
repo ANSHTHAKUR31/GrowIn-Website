@@ -1,6 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import events from "../assets/events.png";
-import growin from "../assets/growin.png";
+import { Carousel } from "react-bootstrap";
+import hero from "../assets/Banner-coverphoto.png";
+import offlinemeetup from "../assets/offline-meetup2.png";
 import stickers from "../assets/stickers.png";
 import cards from "../assets/cards.png";
 
@@ -8,20 +9,24 @@ const About = () => {
   return (
     <div className="container my-5 p-4 bg-white rounded shadow">
       <div className="row align-items-center">
-        {/* Left Side - Images */}
-        <div className="col-md-6 d-flex flex-wrap gap-3 justify-content-center">
-          <div className="d-flex flex-column gap-3">
-            <img src={events} alt="Event" className="img-fluid rounded" style={{ maxWidth: "150px" }} />
-            <img src={growin} alt="Stickers" className="img-fluid rounded" style={{ maxWidth: "150px" }} />
-          </div>
-          <div>
-            <img src={stickers} alt="Group" className="img-fluid rounded" style={{ maxWidth: "150px" }} />
-          </div>
-          <div>
-            <img src={cards} alt="We Make Devs" className="img-fluid rounded" style={{ maxWidth: "150px" }} />
-          </div>
+        
+        <div className="col-md-6 d-flex justify-content-center">
+          <Carousel>
+            <Carousel.Item>
+              <img src={hero} alt="Event" className="img-fluid rounded" style={{ maxWidth: "300px" }} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={offlinemeetup} alt="GrowIn" className="img-fluid rounded" style={{ maxWidth: "300px" }} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={stickers} alt="Stickers" className="img-fluid rounded" style={{ maxWidth: "300px" }} />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={cards} alt="Cards" className="img-fluid rounded" style={{ maxWidth: "300px" }} />
+            </Carousel.Item>
+          </Carousel>
         </div>
-        {/* Right Side - Content */}
+        
         <div className="col-md-6">
           <h2 className="fw-bold">About GrowInCommunity </h2>
           <p>

@@ -19,6 +19,7 @@ function App() {
       <Navbar />
       <Home />
       <FAQ />
+      <br />
       <Footer />
     </div>
   );
