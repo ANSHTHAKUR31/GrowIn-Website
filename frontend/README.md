@@ -13,12 +13,11 @@ Deployed on Vercel – Easily accessible online.
 Framework: React.js
 Language: JavaScript
 Styling: CSS Modules / Bootstrap
-Deployment: Vercel
+Deployment: Github
 
 🚀 Getting Started
 Prerequisites
 Make sure you have the following installed:
-
 Node.js 
 npm 
 Installation
@@ -31,14 +30,10 @@ cd [your-repo-name]
 # Install dependencies
 npm install 
 Running the Project
+
 # Start the development server
 npm run dev  # or yarn dev
 Open (http://localhost:5173/#) to view the app in the browser.
-
- 
-
-📌 Deployment
-This project is live at: GrowInCommunity Website To deploy manually:
 
 git push origin main  # Push latest changes
 
