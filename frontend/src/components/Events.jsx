@@ -1,5 +1,6 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import events from "../assets/events.png"; // ✅ Single import
+import { Button } from "@/components/ui/button"
 
 const Events = () => {
   return (
@@ -14,6 +15,7 @@ const Events = () => {
               <h5 className="card-title">Tech Meetup 2025</h5>
               <p className="card-text">An interactive session where tech enthusiasts shared knowledge and networked.</p>
               <a href="#" className="btn btn-primary">Learn More</a>
+              <Button>Click ME</Button>
             </div>
           </div>
         </div>
