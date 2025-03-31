@@ -1,5 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../App.css"; // Ensure CSS is imported
+import "../App.css"; 
 import logo from "../assets/growin.png";
 
 const Navbar = () => {

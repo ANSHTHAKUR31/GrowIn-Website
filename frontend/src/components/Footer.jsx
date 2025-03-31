@@ -1,18 +1,18 @@
 import { FaYoutube, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
-import growin from "../assets/growin.png"; // Ensure logo is in 'assets' folder
+import growin from "../assets/growin.png"; 
 
 const Footer = () => {
   return (
     <footer style={styles.footer}>
       <div style={styles.container}>
         
-        {/* 🔹 Logo Section */}
+        {/*  Logo Section */}
         <div style={styles.logoSection}>
           <img src={growin} alt="GrowIn Logo" style={styles.logo} />
           <p style={styles.text}>Learn | Build | Grow</p>
         </div>
 
-        {/* 🔹 Social Media Links */}
+        {/*  Social Media Links */}
         <div style={styles.socialIcons}>
           <a href="https://www.youtube.com/@GrowInCommunityoutube" target="_blank" rel="noopener noreferrer" style={styles.icon}>
             <FaYoutube size={30} color="#FF0000" />
@@ -28,14 +28,14 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* 🔹 Copyright */}
+        {/*  Copyright */}
         <p style={styles.copyright}>© 2025 GrowIn Community. All rights reserved.</p>
       </div>
     </footer>
   );
 };
 
-// ✅ CSS-in-JS Styles (Styled Components)
+//  CSS-in-JS Styles (Styled Components)
 const styles = {
   footer: {
     background: "linear-gradient(135deg, #0f0f0f, #1a1a1a)",

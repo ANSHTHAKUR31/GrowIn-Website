@@ -55,7 +55,7 @@ const FAQ = () => {
   );
 };
 
-// ✅ CSS-in-JS Styles (Styled Components)
+
 const styles = {
   faqContainer: {
     maxWidth: "800px",

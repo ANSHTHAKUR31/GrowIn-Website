@@ -27,12 +27,12 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* 🔹 Other Contact Details */}
+      {/*  Other Contact Details */}
       <div className="text-center mt-5">
         <p className="fw-bold fs-5">📧 Email: <a href="mailto:contact@growin.com" className="text-decoration-none text-primary">contact@growin.com</a></p>
         <p className="fw-bold fs-5">📍 Location: <span className="text-muted">New Delhi, India</span></p>
 
-        {/* 🔹 Social Media Links */}
+        {/*  Social Media Links */}
         <div className="d-flex justify-content-center gap-4 mt-4">
           <a href="https://discord.com/invite/example" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaDiscord size={45} color="#5865F2" />

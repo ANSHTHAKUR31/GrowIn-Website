@@ -1,11 +1,11 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaLinkedin, FaTwitter, FaGithub } from "react-icons/fa";
-import member1 from "../assets/member1.png"; // Replace with actual images
+import member1 from "../assets/member1.png"; 
 
 
 const sponsoredMembers = [
   {
-    name: "Ansh Thakur",
+    name: "Sagar Wadhwa",
     event: "KubeCon India 2025",
     description: "Received full sponsorship for attending KubeCon India 2025 to explore Kubernetes advancements.",
     img: member1,

@@ -7,10 +7,11 @@ import member1 from "../assets/member1.png"; // Replace with actual images
 const founder = {
   name: "AKSHAY KUMAR ",
   role: "Founder & Admin",
+  job : " DEVOPS ENGINEER @ NIC",
   img: member1,
-  linkedin: "https://www.linkedin.com/in/ansh-thakur-48b194275",
-  twitter: "https://twitter.com/",
-  github: "https://github.com/ANSHTHAKUR31",
+  linkedin: "https://www.linkedin.com/in/akshayktwt",
+  twitter: "https://x.com/akshayktwt",
+  github: "https://github.com/akshaykumar05",
 };
 
 // Managers Data
@@ -18,18 +19,20 @@ const managers = [
   {
     name: "SAUMYA",
     role: " Manager",
+    job : "CLOUD ARCHITECT @ GOOGLE",
     img: member1,
-    linkedin: "https://www.linkedin.com/in/johndoe",
-    twitter: "https://twitter.com/johndoe",
-    github: "https://github.com/johndoe",
+    linkedin: " https://www.linkedin.com/in/saumyabhushan-076572166",
+    twitter: "https://x.com/saumya_bhushan",
+    github: "https://github.com/SaumyaBhushaSaumyaBhushan",
   },
   {
     name: "Md IMRAN",
     role: " Manager",
+    job : "DEVOPS ENGINEER",
     img: member1,
-    linkedin: "https://www.linkedin.com/in/johndoe",
-    twitter: "https://twitter.com/johndoe",
-    github: "https://github.com/johndoe",
+    linkedin: " https://www.linkedin.com/in/mohdimran1995",
+    twitter: " https://x.com/codenameimmy",
+    github: "https://github.com/imran1509",
   },
 ];
 
@@ -45,6 +48,7 @@ const Members = () => {
           <img src={founder.img} alt={founder.name} className="member-img" />
           <h5 className="mt-3">{founder.name}</h5>
           <p className="text-muted">{founder.role}</p>
+          <p className="text-muted">{founder.job}</p>
           <div className="social-icons">
             <a href={founder.linkedin} target="_blank"><FaLinkedin /></a>
             <a href={founder.twitter} target="_blank"><FaTwitter /></a>
@@ -62,6 +66,7 @@ const Members = () => {
               <img src={manager.img} alt={manager.name} className="member-img" />
               <h5 className="mt-3">{manager.name}</h5>
               <p className="text-muted">{manager.role}</p>
+              <p className="text-muted">{manager.job}</p>
               <div className="social-icons">
                 <a href={manager.linkedin} target="_blank"><FaLinkedin /></a>
                 <a href={manager.twitter} target="_blank"><FaTwitter /></a>
