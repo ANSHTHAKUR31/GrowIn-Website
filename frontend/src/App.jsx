@@ -3,7 +3,8 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
-
+import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
+import Members from "./components/Members";
 
 function App() {
   useEffect(() => {
@@ -15,12 +16,17 @@ function App() {
     });
   }, []);
   return (
-    <div className="bg-gray-100 min-h-screen">
+    <Router>
+    <Routes>
+     <Route path={'/'} element={<div className="bg-gray-100 min-h-screen">
       <Navbar />
       <Home />
       <FAQ />
       <Footer />
-    </div>
+    </div>}/>
+    <Route path="/members" element={<Members/>}/>
+    </Routes>
+    </Router>
   );
 }
 

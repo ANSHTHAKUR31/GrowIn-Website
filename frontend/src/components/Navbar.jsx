@@ -51,14 +51,20 @@ const Navbar = () => {
 
         <div id="navbarNav">
           <ul className="navbar-nav d-flex flex-row justify-content-center align-items-center">
-            {["Home", "About", "Events", "Meetups", "Members", "Sponsorship", "Contact"].map(
+            {[{title: "Home"}, {title:"About"}, {title:"Events"}, {title: "Meetups"}, {title: "Members",path: "/members"}, {title: "Sponsorship"}, {title: "Contact"}].map(
               (item, index) => (
                 <li className="mx-4" key={index}>
                   <button
                     className="text-black font-medium text-base hover:scale-110 transition duration-200 ease-in-out"
-                    onClick={() => scrollToSection(item.toLowerCase())}
+                    onClick={() => {
+                      if(item.path){
+                        window.location.href = item.path
+                      }else{
+                        scrollToSection(item.title.toLowerCase())
+                      }
+                    }}
                   >
-                    {item}
+                    {item.title}
                   </button>
                 </li>
               )

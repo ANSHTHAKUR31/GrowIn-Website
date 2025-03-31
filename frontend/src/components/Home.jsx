@@ -49,7 +49,7 @@ const Home = () => {
   return (
     <div>
       <div id="home" className="flex justify-center items-center flex-col text-center">
-          <div className="mb-4 font-bold text-7xl">
+          <div className="mb-4 font-bold text-7xl text-[#00ffcc] shadow-[#00ffcc] drop-shadow-xl">
             {text}
           </div>
           <h1 className="font-bold text-5xl">Together</h1>
