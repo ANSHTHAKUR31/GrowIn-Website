@@ -15,7 +15,7 @@ function App() {
     });
   }, []);
   return (
-    <div>
+    <div style={{backgroundColor:" #FFFFFF"}} >
       <Navbar />
       <Home />
       <FAQ />
